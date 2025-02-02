@@ -8,7 +8,6 @@
 
 An AI-powered multi-agent system for automated blog content creation. This project uses **CrewAI**, **LangChain**, and **Groq (Llama 3)** to plan, write, and edit blog posts based on a given topic.
 
----
 
 ## 🚀 Features
 
@@ -17,7 +16,6 @@ An AI-powered multi-agent system for automated blog content creation. This proje
 - **Editorial Excellence**: Ensures grammatical accuracy, brand alignment, and balanced viewpoints.
 - **User-Friendly Interface**: Built with **Gradio** for easy interaction and testing.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +25,6 @@ An AI-powered multi-agent system for automated blog content creation. This proje
 - **Groq (Llama 3)**: High-performance LLM for content generation.
 - **Gradio**: Simple and interactive UI for user input and output.
 
----
 
 ## 📦 Installation
 
@@ -51,12 +48,12 @@ pip install -r requirements.txt
 import os
 os.environ["GROQ_API_KEY"] = 'your-groq-api-key-here'
 ```
----
+
 ## 🖥️ Usage
 
 ```bash
 # Run the Application
-python main.py
+python app.py
 ```
 
 - **Access the Gradio Interface:**  
@@ -72,7 +69,7 @@ Topic: "Comparative study of LangGraph, Autogen, and CrewAI for building multi-a
 ### Example Output:
 A well-structured blog post in markdown format.
 
----
+
 ## 🧩 How It Works
 
 - **Content Planner Agent:**  
@@ -96,7 +93,7 @@ python app.py
   Create a new Space on Hugging Face and Push the code files to a HuggingFace Space repository.
   Add your groq_api_key into secrets section in your space
   Hugging Face will automatically deploy the Gradio app.
----
+
 ## 📂 Project Structure
 
 ```plaintext
@@ -116,7 +113,7 @@ ai-agents-blog-writer/
 - **CrewAI:** For the multi-agent framework.
 - **Groq:** For the high-performance Llama 3 LLM.
 - **Gradio:** For the simple and interactive UI.
----
+
 ## 📧 Contact
 
 For questions or feedback, feel free to reach out:

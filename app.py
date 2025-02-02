@@ -41,5 +41,4 @@ interface = gr.Interface(
 )
 
 # Run the Gradio app
-if __name__ == "__main__":
-    interface.launch()
+interface.launch()
